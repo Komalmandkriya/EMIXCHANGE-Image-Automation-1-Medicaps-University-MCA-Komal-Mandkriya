@@ -1,0 +1,42 @@
+
+   .marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #333;
+    border: 1px solid #4a4a4a;
+    animation: scroll-right 2s linear infinite;
+}
+center{
+    font-size:50px;
+    font-weight: bold;
+    color:blue;
+}
+nav button{
+    position:relative;
+
+    width: 200px;
+    height: 50px;
+    color: rgb(90, 233, 133);
+    font-weight: bold;
+    font-size: 20px;
+    border: pink 5px solid;
+    border-radius: 10px;
+}
+button:hover{
+  color: red;
+  background-color: whitesmoke;
+  border-color: chocolate;
+  
+}
+.goback{
+    text-decoration: none;
+    font-weight: bold;
+    color:blueviolet ;
+    font-size: 30px;
+}
+.goback:hover{
+    color: red;
+    background-color: whitesmoke;
+    border-color: chocolate;
